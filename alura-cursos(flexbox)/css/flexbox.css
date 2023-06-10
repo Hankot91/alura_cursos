@@ -1,0 +1,122 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.headerPrincipal-nav{
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    width:  75%;
+    justify-content: space-around ;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 15.625em;
+}
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+}
+
+.videoSobre .container{
+    display: flex;
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .headerPrincipal .container{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list{
+        display: flex;
+        height: auto;
+    }
+
+    .rodapePrincipal-patrocinadores .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodapePrincipal-patrocinadores-list{
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+    }
+    
+    .rodapePrincipal-contatoForm{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .headerPrincipal-nav-link-app{
+        order: -1;
+    }
+
+    .videoSobre .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
