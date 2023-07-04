@@ -1,0 +1,5 @@
+.banner_img{
+    width: 100%;
+    height: calc(100vh  - 72px);
+    background: url('../../img/banner.png') no-repeat center/ cover;
+}

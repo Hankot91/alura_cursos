@@ -1,0 +1,13 @@
+.header_menu-link{
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.header_menu-link:hover{
+    text-decoration: underline;
+}
+
+.header_menu-link.inicio{
+    color: #333333;
+}

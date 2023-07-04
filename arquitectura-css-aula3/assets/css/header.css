@@ -1,0 +1,7 @@
+.header_container{
+    display: flex;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+}
