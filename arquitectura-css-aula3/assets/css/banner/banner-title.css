@@ -1,7 +1,6 @@
 .banner_title{
     color: #fdfdfd;
     font-family: Pacifico, cursive;
-    font-size: 5.0625rem;
     position: absolute;
     left: 50%;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
@@ -9,4 +8,16 @@
     text-align: center;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+@media screen AND (min-width: 0) {
+    .banner_title{
+        font-size: 3rem;
+    }
+}
+
+@media screen AND (min-width: 768px) {
+    .banner_title{
+        font-size: 5.0625rem;
+    }
 }

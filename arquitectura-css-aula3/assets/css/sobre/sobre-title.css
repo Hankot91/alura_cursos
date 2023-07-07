@@ -1,6 +1,17 @@
 .sobre_title{
     color: #DA2B1F;
     font-family: Pacifico, cursive;
-    font-size: 3.1875rem ;
     font-weight: 400;
+}
+
+@media screen and (min-width: 0){
+    .sobre_title{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre_title{
+        font-size: 3.1875rem ;
+    }
 }
